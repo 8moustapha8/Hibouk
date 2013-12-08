@@ -1,0 +1,91 @@
+#etp_bt_configuration {
+	background-image:url(../images/g_conf.png);
+}
+
+#etp_bt_models {
+	background-image:url(../images/etp_models.png);
+}
+
+#etp_bt_pdf {
+	background-image:url(../images/etp_document.png);
+}
+
+#epubtopdf_modelSwitch {
+	background-image:url(../images/etp_css.png);
+}
+
+#epubtopdf_modelSave {
+	background-image:url(../images/etp_disk.png);
+}
+
+#epubtopdf_modelNew {
+	background-image:url(../images/etp_plus.png);
+}
+
+#bt_pk_etp, #epubtopdf_creatPDF {
+	background-image:url(../images/etp_document.png);
+}
+
+#epubtopdf_before {
+	background-image:url(../images/etp_pagebefore.png);
+}
+
+#epubtopdf_after {
+	background-image:url(../images/etp_pageafter.png);
+}
+
+#epubtopdf_zoom_in {
+	background-image:url(../images/etp_zoom-in.png);
+}
+
+#epubtopdf_zoom_out {
+	background-image:url(../images/etp_zoom-out.png);
+}
+
+#epubtopdf_errors {
+	background-image:url(../images/etp_errors.png);
+}
+
+#epubtopdf_page_even {
+	border:1px solid gray;
+	margin:0;
+	position:absolute;
+	left:0;
+	top:0;
+	visibility: hidden;
+}
+
+#epubtopdf_page_odd {
+	border:1px solid gray;
+	margin:0;
+	position:absolute;
+	top:0;
+	visibility: hidden;
+}
+
+#pk_etp-admin {
+	width:800px;
+	margin:auto;
+	text-align: center;
+}
+
+#pk_etp-admin span {
+	width:350px;
+	text-align:right;
+	display:inline-block;
+	margin-right:5px;
+}
+
+#pk_etp-admin p {
+	text-align:left;
+	margin-top:3px;
+	margin-bottom:3px;
+}
+
+.preEditor {
+	height:200px;
+	width:100%;
+	font-size:16px;
+	margin:0;
+	display: none;
+}

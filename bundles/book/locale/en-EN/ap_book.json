@@ -1,0 +1,11 @@
+{
+	"close" : "Exit",
+	"save" : "Save",
+	"export" : "Export",
+	"confirmSaveBook" : "Do you want to save before exit ?",
+	"make" : "Making",
+	"bookUpdateFilesList" : "Update files list",
+	"dependenciessearch" : "Search dependencies ",
+	"saveFiles" : "Save files",
+	"locked" : "Epub being edited"
+}

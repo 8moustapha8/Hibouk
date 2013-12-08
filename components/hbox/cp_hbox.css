@@ -1,0 +1,10 @@
+cp\:hbox {
+  display:block;
+  margin: 0;
+  padding: 0;
+  overflow:auto;
+}
+
+.cp_hbox {
+	padding:15px;
+}

@@ -1,0 +1,193 @@
+html, body {
+	margin: 0;
+	padding: 0;
+	height:100%;
+	font-family: sans-serif;
+}
+
+.toolsBar {
+	height:46px;
+	overflow:hidden;
+	background: #EDECEB;
+	border-bottom:1px solid gray;
+}
+
+.floatbutton {
+	margin-top:4px;
+	margin-right:4px;
+	float:right;
+}
+
+cp\:tab {
+	padding:0;
+	height : 46px;
+}
+
+cp\:tab span {
+	font-size:1em;
+	margin:0;
+	margin-right:4px;
+}
+
+cp\:tabs {
+	padding-top:5px;
+	background:#EDECEB;
+}
+
+.tabbutton {
+	background-color:transparent;
+	margin:0;
+}
+
+.tabbutton:hover {
+	background-color:transparent;
+	border:1px solid transparent;
+}
+
+.tabbutton:active {
+	background-color:transparent;
+}
+
+#Gpack-admin {
+	width:800px;
+	margin:auto;
+	text-align: center;
+}
+
+#Gpack-admin span {
+	width:350px;
+	text-align:right;
+	display:inline-block;
+	margin-right:5px;
+}
+
+#Gpack-admin p input {
+	width:300px;
+}
+
+#Gpack-admin p {
+	text-align:left;
+	margin-top:3px;
+	margin-bottom:3px;
+}
+
+#bt_configuration {
+	background-image:url(../images/g_conf.png);
+}
+
+#bt_packages {
+	background-image:url(../images/g_packages.png);
+}
+
+#bt_depots {
+	background-image:url(../images/g_database.png);
+}
+
+#bt_logout {
+	background-image:url(../images/g_disconnect.png);
+}
+
+#depot-save {
+	background-image:url(../images/g_disk.png);
+}
+
+#depot-refresh {
+	background-image:url(../images/g_depotRefresh.png);
+}
+
+#depot-add {
+	background-image:url(../images/g_plus.png);
+}
+
+#depot-del {
+	background-image:url(../images/g_cross.png);
+}
+
+#GpackTab-packages, #GpackTab-depot {
+	padding:0;
+}
+
+#Gpack-frame-packages {
+	width:500px;
+	float:left;
+	height:395px;
+	position:relative;
+	border-right-width:1px;
+	border-right-style:solid;
+	overflow:auto;
+}
+
+#Gpack-info-packages {
+	width:500px;
+	float:left;
+	padding:10px;
+	position:relative;
+	height:395px;
+	overflow-x:hidden;
+	overflow-y:auto;
+}
+
+.Gpack-info-box {
+	width:440px;
+	height:100px;
+	overflow-x:hidden;
+	overflow-y:auto;
+}
+
+#Gpack-frame-packages img {
+	margin:5px;
+	color:transparent;
+	cursor:pointer;
+	border:medium none;
+}
+
+#Gpack-frame-packages div {
+	border-top:1px solid gray;
+	margin:5px;
+}
+
+.Gpack-frame-packages-installed {
+	border-left:3px solid rgb(255, 166, 2);
+}
+
+.Gpack-frame-packages-update {
+	background:none repeat scroll 0% 0% rgb(255, 234, 173);
+	border-left:3px solid rgb(255, 166, 2);
+}
+
+#Gpack-frame-packages p {
+	margin:0;
+	padding:5px;
+}
+
+#Gpack-frame-packages span {
+	margin:10px;
+}
+
+#Gpack-frame-packages .name {
+	font-size:18px;
+	color:black;
+}
+
+#Gpack-frame-packages .version {
+	font-size:15px;
+}
+
+#Gpack-frame-packages .phaseDev {
+	font-size:12px;
+	color:red;
+	text-transform:uppercase;
+}
+
+#Gpack-frame-packages .installed {
+	float:right;
+	height:16px;
+	font-size:10px;
+	border:0;
+}
+
+#Gpack-frame-packages .installedPD {
+	font-size:9px;
+	color:red;
+	text-transform:uppercase;
+}

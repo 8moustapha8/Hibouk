@@ -1,0 +1,12 @@
+#book_tab_codeEditor {
+	background-image:url(../images/codeeditor_codeEditor.png);
+}
+
+.preEditor {
+	height:200px;
+	width:100%;
+	font-size:16px;
+	margin:0;
+	display: none;
+}
+

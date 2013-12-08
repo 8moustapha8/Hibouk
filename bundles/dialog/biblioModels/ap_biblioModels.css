@@ -1,0 +1,7 @@
+.biblio_epubModels_div {
+	font-size:0.8em;
+	height:95px;
+	overflow: scroll;
+	overflow-x:hidden;
+	padding:5px;
+}

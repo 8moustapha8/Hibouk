@@ -1,0 +1,51 @@
+
+cp\:button {
+	background-color:#EDECEB;
+	font-family: sans-serif;
+	color:black;
+	height:36px;
+	position:relative;
+	border:1px solid transparent;
+	display:inline-block;
+	cursor:pointer;
+	background-repeat: no-repeat;
+	background-position:50% 2px;
+}
+
+cp\:button:hover {
+	background-color:white;
+	border:1px solid gray;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+cp\:button:active {
+	background-color:darkgrey;
+}
+
+cp\:button .buttonlabel {
+	top:18px;
+	position: relative;
+	font-size:11px;
+	padding-left:4px;
+	padding-right:4px;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+/* ----------------- DISABLED ----------------- */
+
+cp\:button[inactivated='true'] {
+	color:gray;
+	cursor:default;
+}
+
+cp\:button[inactivated='true']:hover {
+	border:1px solid transparent;
+	background-color:#EDECEB;
+}

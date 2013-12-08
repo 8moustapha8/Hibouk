@@ -1,0 +1,46 @@
+cp\:splitter {
+	display:block;
+	background:#EBECEF;
+}
+
+cp\:splitter:hover {
+	background:#CFDCFB;
+}
+
+cp\:splitter[direction='horizontal'] {
+	height:4px;
+	cursor:n-resize;
+	bottom:0;
+	border-bottom: 1px solid lightgray;
+	border-top: 1px solid lightgray;
+}
+
+cp\:splitter[direction='vertical'] {
+	width:4px;
+	float:left;
+	cursor:e-resize;
+	vertical-align: middle;
+	border-left: 1px solid lightgray;
+	border-right: 1px solid lightgray;
+}
+
+.cp_shadowSplitterH {
+	background: #ADB8D1;
+	position:relative;
+	height:4px;
+	width:100%;
+	margin: 0;
+	padding: 0;
+	cursor:n-resize;
+	z-index:10000;
+}
+
+.cp_shadowSplitterV {
+	background: #ADB8D1;
+	position:relative;
+	width:4px;
+	cursor:e-resize;
+	margin: 0;
+	padding: 0;
+	z-index:11000;
+}

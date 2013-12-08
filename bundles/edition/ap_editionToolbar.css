@@ -1,0 +1,77 @@
+#edition_undo {
+	background-image:url(images/ap_undo.png);
+}
+
+#edition_redo {
+	background-image:url(images/ap_redo.png);
+}
+
+#edition_save {
+	background-image:url(images/ap_disk.png);
+}
+
+#edition_txtcode[mode=edit] {
+	background-image:url(images/ap_edit-code.png);
+}
+
+#edition_txtcode[mode=source] {
+	background-image:url(images/ap_edit.png);
+}
+
+#edition_remove {
+	background-image:url(images/ap_cross.png);
+}
+
+#edition_gum {
+	background-image:url(images/ap_gum.png);
+}
+
+#edition_bold {
+	background-image:url(images/ap_edit-bold.png);
+}
+
+#edition_italic {
+	background-image:url(images/ap_edit-italic.png);
+}
+
+#edition_underline {
+	background-image:url(images/ap_edit-underline.png);
+}
+#edition_superscript {
+	background-image:url(images/ap_edit-superscript.png);
+}
+#edition_subscript {
+	background-image:url(images/ap_edit-subscript.png);
+}
+
+#edition_left {
+	background-image:url(images/ap_edit-alignment.png);
+}
+
+#edition_center {
+	background-image:url(images/ap_edit-alignment-center.png);
+}
+
+#edition_right {
+	background-image:url(images/ap_edit-alignment-right.png);
+}
+
+#edition_justify {
+	background-image:url(images/ap_edit-alignment-justify.png);
+}
+
+#edition_crossref {
+	background-image:url(images/ap_crossref.png);
+}
+
+#edition_link {
+	background-image:url(images/ap_globe.png);
+}
+
+#edition_img {
+	background-image:url(images/ap_img.png);
+}
+
+#edition_footnote {
+	background-image:url(images/ap_footnote.png);
+}

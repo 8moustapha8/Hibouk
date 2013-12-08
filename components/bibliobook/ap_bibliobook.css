@@ -1,0 +1,62 @@
+cp\:bibliobook {
+	text-align:center;
+	padding:3px;
+	border:1px solid gray;
+	margin:8px;
+	float:left;
+	width:100px;
+	height:120px;
+	box-shadow: -6px 6px 8px #aaa;
+}
+
+cp\:bibliobook:hover {
+	box-shadow: 1px -1px 8px #aaa;
+	cursor:pointer;
+}
+
+cp\:bibliobook[selected='true'] {
+	padding:3px;
+	background:#D6D6D6;
+	border:1px solid gray;
+	margin:8px;
+	float:left;
+	width:100px;
+	height:120px;
+	box-shadow: 0px 0px 0px #aaa;
+}
+
+cp\:bibliobook .title {
+	text-align: center;
+	width:100px;
+	padding:0 3px;
+	height:30px;
+	font-size:11px;
+	overflow:hidden;
+	/* white-space:nowrap; */
+	text-overflow:ellipsis;
+	margin-bottom:5px;
+	-webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+cp\:bibliobook .img {
+    position:relative;
+	width:60px;
+    margin:auto;
+}
+
+cp\:bibliobook .cover {
+	width:60px;
+	height:80px;
+}
+
+cp\:bibliobook .status {
+    position:absolute;
+    left:44px;
+    top:64px;
+    width:16px;
+	height:16px;
+}

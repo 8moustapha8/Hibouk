@@ -1,0 +1,6 @@
+{
+	"import"	: "Importer",
+	"cover"		: "Couverture",
+	"text"		: "Texte",
+	"close"		: "Fermer"
+}

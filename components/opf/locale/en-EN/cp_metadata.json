@@ -1,0 +1,10 @@
+{
+	"title": "Title",
+	"creator": "Author(s), each author is separated by a comma",
+	"subject": "Keywords",
+	"description": "Description, summary",
+	"publisher": "Editor(s), each publisher is separated by a comma",
+	"language": "Language",
+	"rights": "Declaration of rights, license",
+	"identifier": "Identifier"
+}

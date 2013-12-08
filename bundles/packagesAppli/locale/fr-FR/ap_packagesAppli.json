@@ -1,0 +1,8 @@
+{
+	"ap_application"	: "Application",
+	"ap_config"			: "Configuration",
+	"ap_bookNumber"		: "Nombre de livre affiché",
+	"ap_configSave"		: "Enregistrer Configuration",
+	"ap_creatdb"		: "Création de la base de données",
+	"ap_creat"			: "Créer"
+}

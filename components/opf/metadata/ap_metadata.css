@@ -1,0 +1,49 @@
+
+opf\:metadata {
+	display:block;
+}
+
+.dc_inputText {
+	height:20px;
+	border: 1px solid gray;
+	width:550px;
+}
+
+.dc_inputTextarea {
+	height:50px;
+	border: 1px solid gray;
+	width:550px;
+}
+
+.dc_date_md {
+	height:20px;
+	border: 1px solid gray;
+	width:30px;
+	text-align:center;
+}
+
+.dc_date_year {
+	height:20px;
+	border: 1px solid gray;
+	width:50px;
+	text-align:center;
+}
+
+.dc_id_button {
+	width:30px;
+}
+
+.dc_key {
+	display: inline-block;
+	width:150px;
+	text-align:right;
+	height: 28px;
+    line-height: 28px;
+    margin-right:8px;
+    float:left;
+}
+
+dc\:title, dc\:creator, dc\:subject, dc\:description, dc\:publisher, dc\:date, dc\:type, dc\:format, dc\:language, dc\:rights, dc\:identifier {
+	display:block;
+	margin:8px;
+}

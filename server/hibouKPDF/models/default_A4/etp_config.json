@@ -1,0 +1,94 @@
+{
+
+	"@comment_lang" : "langue par défaut pour les césures",
+	"lang" : "fr",
+
+	"@comment_crosRefs" : "Références croisées",
+	"crossRefsDefinition" : {
+		
+		"comment_type" : "",
+		"typeSelectorPrefix" : ".crossref-type-",
+		
+		"@comment_page" : "Liste servant de référence (h1,h2.. pour la table des matière), ",
+		"page" : ["h1","h2","h3",".cross-ref-target"],
+		
+		"@comment_pageTpl" : "Template pour les références coisées",
+		"pageTpl" : "p. {{$page}}"
+	},
+
+	"book" : {
+		"unit" : "mm",
+		"pageWidth" : 210,
+		"pageHeight" : 297,
+		"footnoteSelector" : ".footnote-mark",
+		"footnoteHeaderSelector" : ".footnote-header",
+		"footnoteNumberSelector" : ".footnote-number"
+	},
+
+	"zonesDefintion" : {
+		"default" : {
+			"bodyWidth" : 170,
+			"bodyHeight" : 257,
+			"marginEven" : 20,
+			"marginOdd" : 2,
+			"headerHeight" : 20,
+			"footerHeight" : 20,
+			"pageStart" : 0,
+			"pageCounterReset" : true,
+			"lastPageEven" : false,
+			"counterType" : "romanUpper",
+			"tplHeaderEven" : "<div style='text-align:left;padding-top:5mm;font-size:0.8em;margin-left:20mm;'>{{$chapterTitle}}</div>",
+			"tplHeaderOdd" : "<div style='text-align:right;padding-top:5mm;font-size:0.6em;margin-right:20mm;'>{{$bookTitle}}</div>",
+			"tplFooterEven" : "<div class='m_numPge'>{{$page}}</div>",
+			"tplFooterOdd" : "<div class='m_numPge'>{{$page}}</div>",
+			"footnoteMark" : "footnote-mark",
+			"footnoteFoot" : "footnote-foot",
+			"footnoteTplHearder" : "<div class='footnote-header'></div>",
+			"footnoteTplNumber" : "{{$number}}. ",
+			"chapterTitleSelector" : ".chapterTitle",
+			"pages" : {
+				"1" : {
+					"head" : false,
+					"foot" : false
+				},
+
+				"last-0" : {
+					"head" : false,
+					"foot" : true
+				}
+			}
+		},
+		"chapter" : {
+			"bodyWidth" : 170,
+			"bodyHeight" : 257,
+			"marginEven" : 2,
+			"marginOdd" : 20,
+			"headerHeight" : 20,
+			"footerHeight" : 20,
+			"pageStart" : 0,
+			"pageCounterReset" : false,
+			"lastPageEven" : false,
+			"counterType" : "romanUpper",
+			"tplHeaderEven" : "<div style='text-align:left;padding-top:5mm;font-size:0.6em;margin-left:5mm;'>Even {{$chapterTitle}}</div>",
+			"tplHeaderOdd" : "<div style='text-align:right;padding-top:5mm;font-size:0.6em;margin-right:5mm;'>Odd {{$bookTitle}}</div>",
+			"tplFooterEven" : "<div class='m_numPge'>{{$page}}</div>",
+			"tplFooterOdd" : "<div class='m_numPge'>{{$page}}</div>",
+			"footnoteMark" : "footnote-mark",
+			"footnoteFoot" : "footnote-foot",
+			"footnoteTplHearder" : "<div class='footnote-header'></div>",
+			"footnoteTplNumber" : "{{$number}}. ",
+			"chapterTitleSelector" : ".chapterTitle",
+			"pages" : {
+				"1" : {
+					"head" : false,
+					"foot" : true
+				},
+
+				"last-0" : {
+					"head" : false,
+					"foot" : true
+				}
+			}
+		}
+	}
+}

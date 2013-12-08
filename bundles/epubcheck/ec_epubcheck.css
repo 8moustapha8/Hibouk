@@ -1,0 +1,16 @@
+
+#book_tab_epubcheck, #epubcheck_check {
+	background-image:url(../images/ec_epubcheck.png);
+}
+
+#epubcheck_result {
+	overflow: auto;
+	font-family: Consolas,Menlo,Monaco,Lucida Console,Liberation Mono,DejaVu Sans Mono,Bitstream Vera Sans Mono,Courier New,monospace,serif;
+	font-size:12px;
+}
+
+#epubcheck_result p {
+	text-indent: -25px;
+	padding-left: 25px;
+	white-space: pre-wrap;
+}

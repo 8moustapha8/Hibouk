@@ -1,0 +1,33 @@
+Hibouk (O,O) Installation
+=========================
+
+Server configuration
+--------------------
+
+Hibouk works only on PHP 5.3 and upper.
+
+This php extensions should be installed :
+	dom, gd, json, libxml, pcre, PDO, pdo_mysql, SimpleXML, session, xsl, zip.
+
+Hibouk supports mysql 4.0+.
+
+
+Installation
+------------
+
+- Unzip the archive.
+- Set write access on Hibouk directory, for apache.
+- Go to Hibouk directory width your browser and click button right (preferences)
+  to access connexion pannel :
+  - Login : login
+  - Password : password
+- Set informations to connect and create database.
+
+
+Importation files
+-----------------
+
+To import files .doc, .docx, .rtf and txt ; "LibreOffice" and "unoconv" must be installed.
+
+LibreOffice: <http://www.libreoffice.org/>
+unoconv: <https://github.com/dagwieers/unoconv>

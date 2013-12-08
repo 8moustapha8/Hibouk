@@ -1,0 +1,45 @@
+
+#epubtopdf_tab, #epubtopdf_creatPDF {
+	background-image:url(../images/etp_document.png);
+}
+
+#epubtopdf_before {
+	background-image:url(../images/etp_pagebefore.png);
+}
+
+#epubtopdf_after {
+	background-image:url(../images/etp_pageafter.png);
+}
+
+#epubtopdf_zoom_in {
+	background-image:url(../images/etp_zoom-in.png);
+}
+
+#epubtopdf_zoom_out {
+	background-image:url(../images/etp_zoom-out.png);
+}
+
+#epubtopdf_models {
+	background-image:url(../images/etp_models.png);
+}
+
+#epubtopdf_errors {
+	background-image:url(../images/etp_errors.png);
+}
+
+#epubtopdf_page_even {
+	border:1px solid gray;
+	margin:0;
+	position:absolute;
+	left:0;
+	top:0;
+	visibility: hidden;
+}
+
+#epubtopdf_page_odd {
+	border:1px solid gray;
+	margin:0;
+	position:absolute;
+	top:0;
+	visibility: hidden;
+}

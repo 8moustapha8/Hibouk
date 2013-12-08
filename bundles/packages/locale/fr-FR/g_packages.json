@@ -1,0 +1,48 @@
+{
+	"administrator":"Administrateur",
+	"changeLogin":"Changer login : ",
+	"changePassword":"Changer mot de passe : ",
+	"admindb":"Base de données",
+	"dbTHost":"Host : ",
+	"dbTLogin":"Login : ",
+	"dbTPassword":"Mot de passe : ",
+	"dbTName":"Nom de la table principale : ",
+	"dbTOptions":"Options : ",
+	"dbDNS":"DNS : ",
+
+	"adminDBSave":"Enregistrement configuration base de données",
+
+	"adminOptions":"Variables de configuration",
+	"adminOptionsSave":"Enregistrement des variables de configuration",
+	"debugMode":"Mode débuggage : ",
+	"adminLangue":"Langue (ex : en-US) : ",
+	"sessionTime":"Délai d'une session (temps en secondes) : ",
+
+	"configuration":"Configuration",
+	"packages":"Packages",
+	"depots":"Dépôt",
+
+	"disconnect":"Déconnexion",
+
+	"update":"Mise à jour de la liste",
+	"showPhaseDev":"Stable",
+	"updatePackage":"Mise à jour du package",
+	"installPackage":"Installation du package",
+	"infoPackage":"Information sur le package",
+
+	"depotRefresh":"Chargement des dépôts",
+	"depotSave":"Sauvegarde des dépôts",
+	"depotAdd":"Ajouter un dépôt",
+	"depotDel":"Supprimer un dépôt",
+
+	"LoadPackages":"Lecture des packages",
+	"updatedPackages":"Mise à jour de la liste des packages",
+	"loadInfoPackage":"Chargement des informations sur le package",
+	"removePackage":"Suppression du package",
+	"unmetPackages":"Dépendances non satisfaites",
+
+	"removePackagesBefore":"Désinstaller ce(s) package(s) avant : ",
+	"unmetDownPackages":"Packages Dépendants",
+	"removePackageConfirm":"Voulez-vous supprimer ce package ?",
+	"installPackagesBefore":"Installer ce(s) package(s) avant : "
+}

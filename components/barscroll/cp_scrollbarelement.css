@@ -1,0 +1,25 @@
+
+cp\:scrollbarelement {
+	font-size: 10px;
+	border: 1px solid gray;
+	background: gainsboro;
+	padding: 2px 5px;
+	cursor: pointer;
+	border-radius: 5px;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+cp\:scrollbarelement[selected=true] {
+	border: 1px solid black;
+	background: white;
+}
+
+cp\:scrollbarelement[selected=false]:hover {
+	background: #EBEBEB;
+}
+

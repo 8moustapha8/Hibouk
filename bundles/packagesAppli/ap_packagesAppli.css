@@ -1,0 +1,23 @@
+
+#bt_packagesAplli {
+	background-image:url(../images/ap_application.png);
+}
+
+#Appli-admin {
+	width:800px;
+	margin:auto;
+	text-align: center;
+}
+
+#Appli-admin span {
+	width:350px;
+	text-align:right;
+	display:inline-block;
+	margin-right:5px;
+}
+
+#Appli-admin p {
+	text-align:left;
+	margin-top:3px;
+	margin-bottom:3px;
+}

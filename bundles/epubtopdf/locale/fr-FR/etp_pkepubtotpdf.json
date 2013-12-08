@@ -1,0 +1,18 @@
+{
+	"etp_bt" : "ePubToPDF",
+	"etp_config" : "Configuration",
+	"etp_host" : "Host",
+	"etp_zoom" : "Facteur de zoom",
+	"etp_model" : "Modèles",
+	"etp_configSave" : "Enregistrer Configuration",
+	"etp_modelSave" : "Enregistrer",
+	"etp_modelNew" : "Nouveau",
+	"etp_pdf"	: "PDF",
+	"etp_creat"	: "Tester",
+	"etp_before"	: "Précédentes",
+	"etp_after"	: "Suivantes",
+	"epubtopdf_zoom_out"	: "Réduire",
+	"epubtopdf_zoom_in"	: "Agrandir",
+	"epubtopdf_models" : "Modèles",
+	"etp_errors" : "Erreurs"
+}

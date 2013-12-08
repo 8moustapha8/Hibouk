@@ -1,0 +1,39 @@
+
+- dans la création du package penser a ajouter :
+	- plugin pour g_reg.js
+
+		'g-authUSER.php',
+		'g-confDB.php',
+		'g-conf-T-DB.php',
+		'g-confUSER.php',
+		'g-depotAndPackages.php',
+		'g-depots.php',
+		'g-packagesInstall.php',
+		'index.php',
+		'errorphp.html',
+		'log.txt',
+		'debug.html'
+
+
+- supprimer certains fichiers du cache debug gallina :
+	- autoload
+	- tpl
+	/*
+		// on regènère la liste des class
+		g_autoloader::instance(GALLINA_DIR_CACHE)->regenerate();
+
+		// on supprime les templates du cache
+		g_tpl::clearAll();
+	*/
+
+
+- importation image erreur sur le serveur (adresse)
+	- image/15631dfg16540gdf3.jpg
+		devient -> image/
+
+
+- taille téléchargement / délai sur le serveur de démo
+
+
+- inspector (structure xml pour l'édition) très bizarre dans chrome (valider!)
+- remize à la page zéro quand on charge un nouveau fichier (intégré la nouvelle version multifiles)

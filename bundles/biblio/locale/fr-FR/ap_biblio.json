@@ -1,0 +1,10 @@
+{
+	"books"			: "Livres",
+	"new"			: "Nouveau",
+	"edit"			: "Éditer",
+	"delete"		: "Supprimer",
+	"clone"			: "Cloner",
+	"import"		: "Importer",
+	"preference"	: "Préférences",
+	"confirmDelBook": "Voulez-vous supprimer ce livre ?"
+}

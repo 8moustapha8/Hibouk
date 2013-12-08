@@ -1,0 +1,21 @@
+body {
+	padding:10px ! important;
+}
+
+.__Pointer__ {
+	cursor: crosshair ! important;
+	outline : 2px dashed red ! important;
+}
+
+.__Inspector__ {
+	outline : 1px dashed orangered ! important;
+}
+
+.__Effect__ {
+	outline : 2px solid red ! important;
+}
+
+a {
+	color:blue ! important;
+	text-decoration:underline ! important;
+}

@@ -1,0 +1,42 @@
+
+#book_save {
+	background-image:url(../images/ap_disk.png);
+}
+
+#book_close {
+	background-image:url(../images/ap_door-open-in.png);
+}
+
+#book_export {
+	background-image:url(../images/ap_book_export.png);
+}
+
+cp\:tab {
+	padding:0;
+	height : 46px;
+}
+
+cp\:tab span {
+	font-size:1em;
+	margin:0;
+	margin-right:4px;
+}
+
+cp\:tabs {
+	padding-top:5px;
+	background:#EDECEB;
+}
+
+.tabbutton {
+	background-color:transparent;
+	margin:0;
+}
+
+.tabbutton:hover {
+	background-color:transparent;
+	border:1px solid transparent;
+}
+
+.tabbutton:active {
+	background-color:transparent;
+}

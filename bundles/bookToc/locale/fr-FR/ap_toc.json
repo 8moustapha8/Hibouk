@@ -1,0 +1,11 @@
+{
+	"toc" : "Sommaire",
+	"add" : "Ajouter",
+	"del" : "Supprimer",
+	"creat" : "Créer",
+	"generate" : "Générer",
+	"filesList" : "Liste des fichiers",
+	"load" : "Lecture : ",
+	"tocFileName" : "Nom du fichier",
+	"tocTitle" : "Titre"
+}

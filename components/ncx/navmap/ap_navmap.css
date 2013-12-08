@@ -1,0 +1,66 @@
+
+ncx\:navMap {
+	display: block;
+	margin:20px 0;
+}
+
+ncx\:navPoint {
+	position:relative;
+	display: block;
+	margin:5px 0 5px 40px;
+	border:1px solid transparent;
+	border-left:1px solid silver;
+	padding-left: 10px;
+	background:white;
+	cursor:pointer;
+}
+
+.ncxnavpointghost, .ncxnavpointghostR {
+	position:relative;
+	display: none;
+	height:20px;
+	border:1px dotted black;
+	margin:2px;
+}
+
+.ncxnavpointghostR {
+	margin-left:40px;
+}
+
+ncx\:navPoint[selected=true] {
+	outline:1px dashed #FF5805;
+}
+
+ncx\:text {
+	display: inline-block;
+	height:25px;
+	font-size:18px;
+	width:75%;
+}
+
+.ncxntextinput {
+	display:none;
+	width:100%;
+}
+
+.ncxntextinputC {
+	display:none;
+	width:23%;
+}
+
+
+ncx\:navPoint ncx\:navPoint ncx\:text {
+	font-size: 16px;
+}
+
+ncx\:navPoint ncx\:navPoint ncx\:navPoint ncx\:text {
+	font-size: 14px;
+}
+
+.ncxsrc {
+	display:inline-block;
+	text-align: right;
+	color:gray;
+	width:23%;
+	font-size:12px;
+}

@@ -1,0 +1,21 @@
+
+
+.bookImportfilesText_div {
+	font-size:0.8em;
+	margin-top:15px;
+	border-top:1px solid gray;
+	height:95px;
+	overflow: scroll;
+	overflow-x:hidden;
+	padding:5px;
+}
+
+.bookImportfilesText_title {
+	font-weight: bold;
+}
+
+.bookImportfilesText_name {
+	font-size:0.8em;
+	margin-top:15px;
+	text-align: center;
+}

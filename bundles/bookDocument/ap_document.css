@@ -1,0 +1,12 @@
+
+#book_doc_file_del {
+	background-image:url(../images/ap_document--minus.png);
+}
+
+#book_doc_edit {
+	background-image:url(../images/ap_document--pencil.png);
+}
+
+#book_doc_file_import {
+	background-image:url(../images/ap_document-import.png);
+}

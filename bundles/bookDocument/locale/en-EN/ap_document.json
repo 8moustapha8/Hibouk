@@ -1,0 +1,23 @@
+{
+	"import" : "Import",
+	"delete" : "Delete",
+	"cover" : "Coverage",
+	"title_page" : "Title Page",
+	"epigraph" : "Epigraph",
+	"dedication" : "Dedication",
+	"table_of_contents" : "Table of Contents",
+	"preface" : "Preface",
+	"foreword" : "Foreword",
+	"part" : "Part title",
+	"chapter" : "Chapter",
+	"acknowledgements" : "Acknowledgements",
+	"list_of_illustrations" : "List of Figures",
+	"list_of_tables" : "List of Tables",
+	"notes" : "Notes",
+	"index" : "Index",
+	"glossary" : "Glossary",
+	"bibliography" : "Bibliography",
+	"copyright" : "Copyright",
+	"colophon" : "Colophon",
+	"documentCover" : "Cover"
+}

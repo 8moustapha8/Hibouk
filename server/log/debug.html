@@ -1,0 +1,157 @@
+<html>
+<head>
+<title>Debug</title>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<script type="text/javascript" >
+
+function onload(){
+	var x = document.getElementById("phperror").contentWindow.document.body.innerHTML;
+	if(x=="")
+		document.body.removeChild(document.getElementById("cadre_phperror"));
+}
+
+function actionDebug(action){
+    var xhr;
+
+    if (window.XMLHttpRequest)// Mozilla, Safari, ...
+    	xhr = new XMLHttpRequest();
+    else if (window.ActiveXObject) // IE
+    	xhr = new ActiveXObject("Microsoft.XMLHTTP");
+    else
+    	xhr = false;
+
+    xhr.onreadystatechange  = function(){
+			 if(xhr.readyState  == 4){
+					if(xhr.status  == 200)
+						 reloadPage();
+					else
+						 alert(xhr.status);
+			 }
+    };
+   xhr.open( "GET", "index.php?act="+action,  true);
+   xhr.send(null);
+}
+
+function reloadPage(){
+	parent.document.location.reload();
+}
+
+function fullScreen(){
+ var body = document.body.scrollHeight;
+ var iframe = parent.document.getElementById("debugi").style.height;
+ if(iframe=="150px")
+ 	parent.document.getElementById("debugi").style.height = body+"px";
+ else
+ 	parent.document.getElementById("debugi").style.height = "150px";
+}
+
+function showHide(me){
+	var x = me.nextSibling;
+	var d = x.style.display;
+	if(d == "none"){
+		x.style.display = "block";
+		me.innerHTML = "-";
+	} else {
+		x.style.display = "none";
+		me.innerHTML = "+";
+	}
+}
+
+function showHidePHP(me){
+	var x = document.getElementById("phpdebug");
+	var d = x.style.display;
+	if(d == "none"){
+		x.style.display = "block";
+		me.innerHTML = "-";
+	} else {
+		x.style.display = "none";
+		me.innerHTML = "+";
+	}
+}
+
+function refresh(){
+	document.location.reload();
+}
+
+</script>
+<style type="text/css">
+
+body {
+	background: white;
+}
+
+.error_php {
+	border:1px solid red;
+}
+
+.cadre{
+
+}
+
+.v{
+	margin: 0px 0px 10px 0px; display: block;
+
+	color: black;
+	font-family: Verdana;
+	border: 1px solid #cccccc;
+	padding: 5px;
+	font-size: 12px;
+	line-height: 13px;
+}
+
+.reduct {
+	font-size: 20px;
+	color:green;
+	cursor:pointer;
+	font-weight:bold;
+}
+
+
+.varName {
+	height:20px;
+	color:#40006F;
+}
+
+.varName1 {
+	color:#8F0824;
+}
+
+.typeVar {
+	color:#a2a2a2;
+}
+
+.String {
+	color:black;
+}
+
+.Integer {
+	color:red;
+}
+
+.Double {
+	color:#0099c5;
+}
+
+.Boolean {
+	color:#92008d;
+}
+
+.NULL {
+	color:#003F00;
+}
+
+iframe {
+	width:100%;
+	border:0;
+}
+</style>
+</head>
+<body>
+<div><input type="button" onclick="reloadPage()" value="⟳"/>
+<input type="button" onclick="refresh()" value="⟳ Debug"/>
+<input type="button" onclick="actionDebug('emptyGallinaCache')" value="✘ Gallina Cache"/>
+<input type="button" onclick="actionDebug('sessionDestroy')" value="✘ Destroy session"/>
+<input type="button" onclick="fullScreen()" value="⇲"/>
+</div>
+<div id="cadre_phperror" class="v"><span class="reduct" onclick="showHidePHP(this)">-</span>
+  	<div id="phpdebug" class="cadre"><iframe id="phperror" src="errorphp.html"></iframe></div></div></body></html>

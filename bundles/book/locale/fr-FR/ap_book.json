@@ -1,0 +1,11 @@
+{
+	"close"				: "Quitter",
+	"save"				: "Enregistrer",
+	"export"			: "Exporter",
+	"confirmSaveBook"	: "Voulez-vous sauvegarder avant de quitter ?",
+	"make"				: "Fabriquer",
+	"bookUpdateFilesList" : "Mise à jour de la liste des fichiers",
+	"dependenciessearch" : "Recherche des dépendances ",
+	"saveFiles" : "Enregistrement des fichiers",
+	"locked" : "Epub en cours d'édition"
+}

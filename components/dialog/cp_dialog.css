@@ -1,0 +1,60 @@
+cp\:dialog {
+	position:absolute;
+	margin:0;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	z-index: 10000;
+	background: rgba(50,50,50,0.4);
+}
+
+cp\:dialog .dialogbox {
+	visibility: hidden;
+	background: white;
+	margin:auto;
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	border:1px solid gray;
+	border-radius: 10px;
+	box-shadow: -8px 8px 12px #696969;
+}
+
+cp\:dialog .dialogtitle {
+	text-align:center;
+	font-size:16px;
+	padding:4px;
+	margin:2px;
+	border-top-right-radius: 8px;
+	border-top-left-radius: 8px;
+	background: gray;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+cp\:dialog .dialogcontentbox  {
+	margin:0;
+	position:relative;
+	width:100%;
+	overflow:auto;
+}
+
+cp\:dialog .dialogcontent  {
+	padding:5px;
+}
+
+cp\:dialog .dialogbutton  {
+	padding:3px;
+	border-top:1px solid gray;
+	text-align: right;
+}
+
+cp\:dialog .dialogBcancel {
+	float:left;
+}

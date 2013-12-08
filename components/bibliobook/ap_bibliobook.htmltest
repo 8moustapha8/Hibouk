@@ -1,0 +1,5 @@
+<cp:bibliobooks>
+    <cp:bibliobook title="Book 1"></cp:bibliobook>
+    <cp:bibliobook title="Book 2"></cp:bibliobook>
+    <cp:bibliobook title="Book 3"></cp:bibliobook>
+</cp:bibliobooks>

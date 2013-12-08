@@ -1,0 +1,48 @@
+
+cp\:pagination {
+	position:relative;
+	display:inline-block;
+}
+
+cp\:pagination a {
+	background-color:#EDECEB;
+	font-family: sans-serif;
+	color:black;
+	position:relative;
+	border:1px solid transparent;
+	margin:2px;
+	padding:2px;
+	display:inline-block;
+	cursor:pointer;
+	border:1px solid gray;
+	font-size:12px;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+cp\:pagination a:hover {
+	background-color:white;
+	border-color:black;
+}
+
+cp\:pagination a:active {
+	background-color:darkgrey;
+}
+
+cp\:pagination a[current='true'] {
+	background-color:silver;
+	border-color:gray;
+	color:dimgray;
+	cursor:default;
+}
+
+cp\:pagination a[current='true']:hover { }
+
+cp\:pagination a[current='true']:active { }
+
+cp\:pagination .resume {
+	margin-left: 10px;
+	font-size:12px;
+}

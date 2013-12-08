@@ -1,0 +1,77 @@
+cp\:popupboxes {
+	display:block;
+}
+
+.g_dia_m {
+	visibility:hidden;
+	display:block;
+	position: fixed;
+	font-family: Arial, sans-serif;
+	font-size: 15px;
+	min-width: 140px;
+	border: solid 3px dimgray;
+	padding: 8px;
+	text-align: center;
+	background: #FFF;
+    margin: 0;
+}
+
+.g_dia_container {
+    position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	cursor:wait;
+	background: black;
+    opacity:0.3;
+}
+
+
+#g_dia_container {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+    min-width: 140px;
+    background: #FFF;
+    border: solid 3px dimgray;
+    color: #000;
+    position: fixed;
+    visibility:hidden;
+    display:block;
+    padding: 0;
+    margin: 0;
+}
+
+#g_dia_title {
+    font-size: 16px;
+    font-weight: bold;text-align: center;
+    line-height: 1.75em;
+    background:#DFDFDF;
+    color: #666
+    ;border: solid 1px #FFF;
+    cursor: default;
+    padding: 0;
+    margin: 0;
+}
+#g_dia_content {
+    background:url(../../images/g_info.png) no-repeat scroll 5px 5px transparent;
+    padding: 1em 1em 0.3em 4.5em;
+    margin: 0;
+}
+#g_dia_content.alert {
+    background:url(../../images/g_warning.png) no-repeat scroll 5px 5px transparent;
+    padding: 1em 1em 0.3em 4.5em;
+    margin: 0;
+}
+#g_dia_message {
+    text-align:center;
+}
+#g_dia_panel {
+    text-align: center;
+    margin:8px 0 0 -2.7em;
+}
+#g_dia_panel input {
+    cursor: pointer;
+}
+#g_dia_panel input:focus {
+    border:0;
+}

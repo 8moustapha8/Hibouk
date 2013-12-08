@@ -1,0 +1,76 @@
+cp\:statusselect {
+    font-size:13px;
+    font-family: sans-serif;
+    color:black;
+    cursor:pointer;
+    display:inline-block;
+}
+
+cp\:statusselect .statusselect_button {
+    background-color:#EDECEB;
+    position:relative;
+    border:1px solid transparent;
+    width:20px;
+    height:20px;
+    background-repeat:no-repeat;
+    background-position:2px 2px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+}
+
+cp\:statusselect .statusselect_button:hover {
+    background-color:white;
+    border:1px solid gray;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+
+cp\:statusselect[inactivated='true'] .statusselect_button:hover {
+    border:1px solid transparent;
+    background-color:#EDECEB;
+}
+
+cp\:statusselect .statusselect_disa {
+    display: none;
+}
+
+cp\:statusselect[inactivated='true'] .statusselect_disa {
+    cursor:default;
+    height:20px;
+    float:left;
+    width:20px;
+    position:relative;
+    display: block;
+    background: rgba(237,236,236,0.6);
+    border-radius: 5px;
+}
+
+cp\:statusselect .statusselect_il {
+    list-style: none;
+    margin: 0;
+    padding:0;
+    position: absolute;border:1px solid gray;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+    display:none;
+    z-index: 99999;
+}
+
+cp\:statusselect li {
+    background-color:white;
+    padding:5px 5px 5px 25px;
+    background-repeat:no-repeat;
+    background-position:4px 4px;
+}
+
+cp\:statusselect li:hover {
+    background-color:#A2C1E6;
+}

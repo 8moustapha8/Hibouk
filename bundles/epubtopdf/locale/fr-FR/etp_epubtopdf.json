@@ -1,0 +1,11 @@
+{
+	"etp_pdf"	: "PDF",
+	"etp_creat"	: "Créer",
+	"etp_before"	: "Précédentes",
+	"etp_after"	: "Suivantes",
+	"epubtopdf_zoom_out"	: "Réduire",
+	"epubtopdf_zoom_in"	: "Agrandir",
+	"epubtopdf_models" : "Modèles",
+	"etp_allfiles" : "Tous les fichiers ",
+	"etp_errors" : "Erreurs"
+}

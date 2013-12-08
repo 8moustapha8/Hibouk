@@ -1,0 +1,9 @@
+{
+	"bundleName" : "Nom du bundle",
+	"nameSpace" : "NameSpace",
+	"typeBundle" : "Type",
+	"author" : "Auteur",
+	"licence" : "Licence",
+	"generate" : "Générer",
+	"bundlecreat" : "Générateur de bundles"
+}

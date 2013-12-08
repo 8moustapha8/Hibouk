@@ -1,0 +1,49 @@
+
+cp\:scrollbaronglet {
+	font-size: 10px;
+	background: gainsboro;
+	padding:2px 5px;
+	width: 80px;
+	display: inline-block;
+	border-radius: 5px 5px 0 0;
+	cursor: pointer;
+	border:1px solid gray;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	color:gray;
+}
+
+cp\:scrollbaronglet[selected=true] {
+	background: white;
+	color:black;
+}
+
+cp\:scrollbaronglet[selected=false]:hover {
+	background: #EBEBEB;
+}
+
+cp\:scrollbaronglet[selected=true] .scrollbarongletClose {
+	color: red;
+}
+
+cp\:scrollbaronglet .scrollbarongletClose {
+	color:gray;
+	width:10px;
+	display: inline-block;
+	text-align:center;
+}
+
+cp\:scrollbaronglet[selected=true] .scrollbarongletClose:hover {
+	background:gainsboro;
+}
+
+cp\:scrollbaronglet .scrollbarongletName {
+	color:gray;
+	width:70px;
+	display: inline-block;
+}
+

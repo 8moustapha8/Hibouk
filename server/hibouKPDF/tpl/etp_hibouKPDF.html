@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script id="tplZoneCSS" type="text/x-hibookjs">
+#region{{$number}} .page_hk {
+    width:{{$pageWidth}}{{$unit}};
+    height:{{$pageHeight}}{{$unit}};
+}
+#region{{$number}} .body_hk {
+    width:{{$bodyWidth}}{{$unit}};
+    height:{{$bodyHeight}}{{$unit}};
+}
+#region{{$number}} .page_hk:nth-child(even) .body_hk {
+    margin:0 0 0 {{$marginEven}}{{$unit}};
+}
+#region{{$number}} .page_hk:nth-child(odd) .body_hk {
+    margin:0 0 0 {{$marginOdd}}{{$unit}};
+}
+#region{{$number}} .regions_hk {
+    width:{{$bodyWidth}}{{$unit}};
+    height:{{$bodyHeight}}{{$unit}};
+    -webkit-flow-from: content-{{$number}}-flow;
+}
+.content-{{$number}} {
+    -webkit-flow-into: content-{{$number}}-flow;
+}
+#region{{$number}} .header_hk {
+    width:{{$pageWidth}}{{$unit}};
+    height:{{$headerHeight}}{{$unit}};
+}
+#region{{$number}} .footer_hk {
+    width:{{$pageWidth}}{{$unit}};
+    height:{{$footerHeight}}{{$unit}};
+}
+
+#region{{$number}} .flexfoot_hk {
+    width:{{$bodyWidth}}{{$unit}};
+    height:{{$flexfootHeight}}px;
+}
+</script>
+<script id="tplZoneFootCSS" type="text/x-hibookjs">
+.footnote-foot-{{$foot_number}} {
+    width:{{$bodyWidth}}{{$unit}};
+    -webkit-flow-from: content-foot-{{$foot_number}}-flow;
+}
+.content-foot-{{$foot_number}} {
+    -webkit-flow-into: content-foot-{{$foot_number}}-flow;
+}
+</script>
+</head>
+<body>
+</body>
+</html>

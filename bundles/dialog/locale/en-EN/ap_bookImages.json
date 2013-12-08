@@ -1,0 +1,10 @@
+{
+	"img" : "Images",
+	"figure" : "Figure : ",
+	"url" : "URL : ",
+	"caption" : "Caption : ",
+	"addcaption" : "Add caption",
+	"delete" : "Delete",
+	"error_validate_files" : "Aucun fichier sélectionné",
+	"error_validate_format_file" : "Format de fichier invalide"
+}

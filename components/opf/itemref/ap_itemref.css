@@ -1,0 +1,30 @@
+
+opf\:itemref {
+	display:block;
+	border:1px solid transparent;
+	border-bottom:1px solid black;
+	margin:0 5px;
+	height:23px;
+	background:white;
+	cursor:pointer;
+	font-size: 0.9em;
+}
+
+
+opf\:itemref:hover {
+	outline:1px solid #51A3BA;
+}
+
+opf\:itemref[selected=true] {
+	outline:1px dashed #FF5805;
+}
+
+opf\:itemref[guidetype=cover] {
+	background:#BEA1F4;
+}
+
+opf\:itemref:after {
+	font-size:9px;
+	color:#304072;
+	 content : " - "attr(guidetype);
+}

@@ -1,0 +1,68 @@
+
+cp\:menupopup {
+    background: #F9F9F9;
+    box-shadow: 0 0 12px rgba( 0, 0, 0, .3 );
+    border: 1px solid gray;
+    display: none;
+    position: absolute;
+    top: 0; left: 0;
+    margin: 0;
+    padding: 0;
+}
+
+cp\:submenu {
+    background: #F9F9F9;
+    box-shadow: 0 0 12px rgba( 0, 0, 0, .3 );
+    border: 1px solid gray;
+    display: block;
+    visibility: hidden;
+    position: absolute;
+    top: 0; left: 0;
+    margin: 0;
+    padding: 0;
+}
+
+cp\:menuitem {
+	display: block;
+    position: relative;
+    padding:3px 8px;
+    font-size: 12px;
+    -webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;
+	cursor: pointer;
+}
+
+cp\:menuitem[inactivated='true'] {
+	color:gray;
+	cursor:default;
+}
+
+cp\:menuitem[inactivated='true']:hover {
+	background:white ;
+}
+
+cp\:menuitem:hover > cp\:submenu {
+	visibility: visible;
+	background: #F9F9F9;
+}
+
+cp\:menuitem[inactivated='true']:hover > cp\:submenu {
+	visibility: hidden;
+	background: white;
+}
+
+cp\:menuitem .submenuitem {
+	display: none;
+	font-size: 0.6em;
+	margin-top: 3px;
+	float:right;
+	position: relative;
+}
+
+
+cp\:menuitem:hover {
+    background: #AADFF7;
+}

@@ -1,0 +1,178 @@
+
+2013-06-02 11:40:09 | ip 127.0.0.1 | Notice : session_start() [function.session-start]: ps_files_cleanup_dir: opendir(/var/lib/php5) failed: Permission denied (13) ; ligne : 54 ; /var/www/hiboux/server/core/g_session.php
+
+2013-06-02 12:37:26 | ip 127.0.0.1 | Warning : Cannot modify header information - headers already sent by (output started at /var/www/hiboux/server/core/request/g_request.php:148) ; ligne : 56 ; /var/www/hiboux/server/core/reponse/g_response.php
+
+2013-06-02 12:37:26 | ip 127.0.0.1 | Warning : Cannot modify header information - headers already sent by (output started at /var/www/hiboux/server/core/request/g_request.php:148) ; ligne : 58 ; /var/www/hiboux/server/core/reponse/g_response.php
+
+2013-06-13 07:33:09 | ip ::1 | Notice : Use of undefined constant APPLI_TABLE - assumed 'APPLI_TABLE' ; ligne : 29 ; /var/www/hiboux_test_packages/dev/server/modules/ap_biblio.php
+
+2013-06-13 07:33:09 | ip ::1 | Warning : Cannot modify header information - headers already sent by (output started at /var/www/hiboux_test_packages/dev/server/core/g_core.php:95) ; ligne : 56 ; /var/www/hiboux_test_packages/dev/server/core/reponse/g_response.php
+
+2013-06-13 07:33:09 | ip ::1 | Warning : Cannot modify header information - headers already sent by (output started at /var/www/hiboux_test_packages/dev/server/core/g_core.php:95) ; ligne : 58 ; /var/www/hiboux_test_packages/dev/server/core/reponse/g_response.php
+
+2013-06-21 11:45:11 | ip ::1 | Deprecated : Directive 'magic_quotes_gpc' is deprecated in PHP 5.3 and greater ; ligne : 0 ; Unknown
+
+2013-06-23 09:33:12 | ip 127.0.0.1 | Deprecated : Directive 'magic_quotes_gpc' is deprecated in PHP 5.3 and greater ; ligne : 0 ; Unknown
+
+2013-06-23 09:33:28 | ip 127.0.0.1 | Deprecated : Directive 'magic_quotes_gpc' is deprecated in PHP 5.3 and greater ; ligne : 0 ; Unknown
+
+2013-06-23 09:38:35 | ip 127.0.0.1 | Deprecated : Directive 'magic_quotes_gpc' is deprecated in PHP 5.3 and greater ; ligne : 0 ; Unknown
+
+2013-06-23 09:39:04 | ip 127.0.0.1 | Deprecated : Directive 'magic_quotes_gpc' is deprecated in PHP 5.3 and greater ; ligne : 0 ; Unknown
+
+2013-06-23 09:40:44 | ip 127.0.0.1 | Deprecated : Directive 'magic_quotes_gpc' is deprecated in PHP 5.3 and greater ; ligne : 0 ; Unknown
+
+2013-06-23 09:42:34 | ip 127.0.0.1 | Deprecated : Directive 'magic_quotes_gpc' is deprecated in PHP 5.3 and greater ; ligne : 0 ; Unknown
+
+2013-06-23 09:55:46 | ip 127.0.0.1 | Deprecated : Directive 'magic_quotes_gpc' is deprecated in PHP 5.3 and greater ; ligne : 0 ; Unknown
+
+2013-06-23 09:57:41 | ip 127.0.0.1 | Deprecated : Directive 'magic_quotes_gpc' is deprecated in PHP 5.3 and greater ; ligne : 0 ; Unknown
+
+2013-06-23 09:57:45 | ip 127.0.0.1 | Deprecated : Directive 'magic_quotes_gpc' is deprecated in PHP 5.3 and greater ; ligne : 0 ; Unknown
+
+2013-06-23 10:08:01 | ip 127.0.0.1 | Deprecated : Directive 'magic_quotes_gpc' is deprecated in PHP 5.3 and greater ; ligne : 0 ; Unknown
+
+2013-06-23 10:08:06 | ip 127.0.0.1 | Deprecated : Directive 'magic_quotes_gpc' is deprecated in PHP 5.3 and greater ; ligne : 0 ; Unknown
+
+2013-06-23 10:08:20 | ip 127.0.0.1 | Deprecated : Directive 'magic_quotes_gpc' is deprecated in PHP 5.3 and greater ; ligne : 0 ; Unknown
+
+2013-06-23 10:09:33 | ip 127.0.0.1 | Deprecated : Directive 'magic_quotes_gpc' is deprecated in PHP 5.3 and greater ; ligne : 0 ; Unknown
+
+2013-06-23 10:09:41 | ip 127.0.0.1 | Deprecated : Directive 'magic_quotes_gpc' is deprecated in PHP 5.3 and greater ; ligne : 0 ; Unknown
+
+2013-06-23 10:21:09 | ip 127.0.0.1 | Notice : session_start() [function.session-start]: ps_files_cleanup_dir: opendir(/var/lib/php5) failed: Permission denied (13) ; ligne : 54 ; /var/www/hiboux_test_packages/dev/server/core/g_session.php
+
+2013-06-23 10:21:13 | ip 127.0.0.1 | Deprecated : Directive 'magic_quotes_gpc' is deprecated in PHP 5.3 and greater ; ligne : 0 ; Unknown
+
+2013-06-23 10:22:56 | ip 127.0.0.1 | Deprecated : Directive 'magic_quotes_gpc' is deprecated in PHP 5.3 and greater ; ligne : 0 ; Unknown
+
+2013-06-23 10:23:00 | ip 127.0.0.1 | Deprecated : Directive 'magic_quotes_gpc' is deprecated in PHP 5.3 and greater ; ligne : 0 ; Unknown
+
+2013-06-23 10:27:35 | ip 127.0.0.1 | Notice : session_start() [function.session-start]: ps_files_cleanup_dir: opendir(/var/lib/php5) failed: Permission denied (13) ; ligne : 54 ; /var/www/hiboux_test_packages/dev/server/core/g_session.php
+
+2013-06-23 10:27:35 | ip 127.0.0.1 | Deprecated : Directive 'magic_quotes_gpc' is deprecated in PHP 5.3 and greater ; ligne : 0 ; Unknown
+
+2013-06-23 10:27:42 | ip 127.0.0.1 | Deprecated : Directive 'magic_quotes_gpc' is deprecated in PHP 5.3 and greater ; ligne : 0 ; Unknown
+
+2013-06-23 10:29:48 | ip 127.0.0.1 | Deprecated : Directive 'magic_quotes_gpc' is deprecated in PHP 5.3 and greater ; ligne : 0 ; Unknown
+
+2013-06-23 10:30:05 | ip 127.0.0.1 | Deprecated : Directive 'magic_quotes_gpc' is deprecated in PHP 5.3 and greater ; ligne : 0 ; Unknown
+
+2013-06-23 10:39:50 | ip 127.0.0.1 | Deprecated : Directive 'magic_quotes_gpc' is deprecated in PHP 5.3 and greater ; ligne : 0 ; Unknown
+
+2013-06-23 10:40:52 | ip 127.0.0.1 | Deprecated : Directive 'magic_quotes_gpc' is deprecated in PHP 5.3 and greater ; ligne : 0 ; Unknown
+
+2013-06-23 11:18:30 | ip 127.0.0.1 | Deprecated : Directive 'magic_quotes_gpc' is deprecated in PHP 5.3 and greater ; ligne : 0 ; Unknown
+
+2013-06-23 12:09:47 | ip 127.0.0.1 | Deprecated : Directive 'magic_quotes_gpc' is deprecated in PHP 5.3 and greater ; ligne : 0 ; Unknown
+
+2013-06-23 12:10:22 | ip 127.0.0.1 | Warning : Cannot modify header information - headers already sent by (output started at /var/www/hiboux_test_packages/dev/server/modules/etp_epubtopdf.php:30) ; ligne : 56 ; /var/www/hiboux_test_packages/dev/server/core/reponse/g_response.php
+
+2013-06-23 12:10:22 | ip 127.0.0.1 | Warning : Cannot modify header information - headers already sent by (output started at /var/www/hiboux_test_packages/dev/server/modules/etp_epubtopdf.php:30) ; ligne : 58 ; /var/www/hiboux_test_packages/dev/server/core/reponse/g_response.php
+
+2013-06-23 12:26:48 | ip 127.0.0.1 | Deprecated : Directive 'magic_quotes_gpc' is deprecated in PHP 5.3 and greater ; ligne : 0 ; Unknown
+
+2013-06-23 12:47:37 | ip 127.0.0.1 | Deprecated : Directive 'magic_quotes_gpc' is deprecated in PHP 5.3 and greater ; ligne : 0 ; Unknown
+
+2013-06-23 19:33:43 | ip 127.0.0.1 | Deprecated : Directive 'magic_quotes_gpc' is deprecated in PHP 5.3 and greater ; ligne : 0 ; Unknown
+
+2013-06-23 19:33:57 | ip 127.0.0.1 | Warning : Cannot modify header information - headers already sent by (output started at /var/www/hiboux_test_packages/dev/server/modules/etp_epubtopdf.php:57) ; ligne : 56 ; /var/www/hiboux_test_packages/dev/server/core/reponse/g_response.php
+
+2013-06-23 19:33:57 | ip 127.0.0.1 | Warning : Cannot modify header information - headers already sent by (output started at /var/www/hiboux_test_packages/dev/server/modules/etp_epubtopdf.php:57) ; ligne : 58 ; /var/www/hiboux_test_packages/dev/server/core/reponse/g_response.php
+
+2013-06-23 19:35:01 | ip 127.0.0.1 | Notice : Use of undefined constant pattern - assumed 'pattern' ; ligne : 149 ; /var/www/hiboux_test_packages/dev/server/hibouKPDF/etp_hiboukPDF.php
+
+2013-06-23 19:54:16 | ip 127.0.0.1 | Deprecated : Directive 'magic_quotes_gpc' is deprecated in PHP 5.3 and greater ; ligne : 0 ; Unknown
+
+2013-06-23 20:06:52 | ip 127.0.0.1 | Deprecated : Directive 'magic_quotes_gpc' is deprecated in PHP 5.3 and greater ; ligne : 0 ; Unknown
+
+2013-06-23 20:18:53 | ip 127.0.0.1 | Deprecated : Directive 'magic_quotes_gpc' is deprecated in PHP 5.3 and greater ; ligne : 0 ; Unknown
+
+2013-06-23 20:19:09 | ip 127.0.0.1 | Deprecated : Directive 'magic_quotes_gpc' is deprecated in PHP 5.3 and greater ; ligne : 0 ; Unknown
+
+2013-06-23 20:21:31 | ip 127.0.0.1 | Deprecated : Directive 'magic_quotes_gpc' is deprecated in PHP 5.3 and greater ; ligne : 0 ; Unknown
+
+2013-06-23 20:22:49 | ip 127.0.0.1 | Deprecated : Directive 'magic_quotes_gpc' is deprecated in PHP 5.3 and greater ; ligne : 0 ; Unknown
+
+2013-06-23 21:51:41 | ip 127.0.0.1 | Deprecated : Directive 'magic_quotes_gpc' is deprecated in PHP 5.3 and greater ; ligne : 0 ; Unknown
+
+2013-06-24 07:57:14 | ip 127.0.0.1 | Warning : file_put_contents(/__hiboukPDF.html) [function.file-put-contents]: failed to open stream: Permission denied ; ligne : 119 ; /var/www/hiboux_test_packages/dev/server/hibouKPDF/etp_hiboukPDF.php
+
+2013-12-04 17:17:21 | ip ::1 | Core Error : Directive 'allow_call_time_pass_reference' is no longer available in PHP ; ligne : 0 ; Unknown
+
+2013-12-04 17:17:23 | ip ::1 | Notice : Use of undefined constant APPLI_TABLE - assumed 'APPLI_TABLE' ; ligne : 30 ; /var/www/temp/hibouk/server/modules/ap_biblio.php
+
+2013-12-04 17:17:23 | ip ::1 | Warning : Cannot modify header information - headers already sent by (output started at /var/www/temp/hibouk/server/core/g_core.php:95) ; ligne : 56 ; /var/www/temp/hibouk/server/core/reponse/g_response.php
+
+2013-12-04 17:17:23 | ip ::1 | Warning : Cannot modify header information - headers already sent by (output started at /var/www/temp/hibouk/server/core/g_core.php:95) ; ligne : 58 ; /var/www/temp/hibouk/server/core/reponse/g_response.php
+
+2013-12-04 17:17:23 | ip ::1 | Core Error : Directive 'allow_call_time_pass_reference' is no longer available in PHP ; ligne : 0 ; Unknown
+
+2013-12-04 17:17:40 | ip ::1 | Core Error : Directive 'allow_call_time_pass_reference' is no longer available in PHP ; ligne : 0 ; Unknown
+
+2013-12-04 17:17:40 | ip ::1 | User Warning : [6] Address key does not exist : epubMODELS  ; ligne : 93 ; /var/www/temp/hibouk/server/core/g_adr.php
+
+2013-12-04 17:17:40 | ip ::1 | Notice : Use of undefined constant APPLI_TABLE - assumed 'APPLI_TABLE' ; ligne : 71 ; /var/www/temp/hibouk/server/modules/ap_biblio.php
+
+2013-12-04 17:17:40 | ip ::1 | Warning : Cannot modify header information - headers already sent by (output started at /var/www/temp/hibouk/server/core/g_core.php:95) ; ligne : 56 ; /var/www/temp/hibouk/server/core/reponse/g_response.php
+
+2013-12-04 17:17:40 | ip ::1 | Warning : Cannot modify header information - headers already sent by (output started at /var/www/temp/hibouk/server/core/g_core.php:95) ; ligne : 58 ; /var/www/temp/hibouk/server/core/reponse/g_response.php
+
+2013-12-04 17:17:40 | ip ::1 | Core Error : Directive 'allow_call_time_pass_reference' is no longer available in PHP ; ligne : 0 ; Unknown
+
+2013-12-04 17:17:49 | ip ::1 | Core Error : Directive 'allow_call_time_pass_reference' is no longer available in PHP ; ligne : 0 ; Unknown
+
+2013-12-04 17:17:49 | ip ::1 | User Warning : [6] Address key does not exist : epubMODELS  ; ligne : 93 ; /var/www/temp/hibouk/server/core/g_adr.php
+
+2013-12-04 17:17:49 | ip ::1 | Notice : Use of undefined constant APPLI_TABLE - assumed 'APPLI_TABLE' ; ligne : 71 ; /var/www/temp/hibouk/server/modules/ap_biblio.php
+
+2013-12-04 17:17:49 | ip ::1 | Warning : Cannot modify header information - headers already sent by (output started at /var/www/temp/hibouk/server/core/g_core.php:95) ; ligne : 56 ; /var/www/temp/hibouk/server/core/reponse/g_response.php
+
+2013-12-04 17:17:49 | ip ::1 | Warning : Cannot modify header information - headers already sent by (output started at /var/www/temp/hibouk/server/core/g_core.php:95) ; ligne : 58 ; /var/www/temp/hibouk/server/core/reponse/g_response.php
+
+2013-12-04 17:17:53 | ip ::1 | Notice : Undefined index: login ; ligne : 147 ; /var/www/temp/hibouk/server/core/g_module.php
+
+2013-12-04 17:17:53 | ip ::1 | Notice : Undefined index: password ; ligne : 147 ; /var/www/temp/hibouk/server/core/g_module.php
+
+2013-12-04 17:18:00 | ip ::1 | Core Error : Directive 'allow_call_time_pass_reference' is no longer available in PHP ; ligne : 0 ; Unknown
+
+2013-12-04 17:18:05 | ip ::1 | Core Error : Directive 'allow_call_time_pass_reference' is no longer available in PHP ; ligne : 0 ; Unknown
+
+2013-12-04 17:18:12 | ip ::1 | Core Error : Directive 'allow_call_time_pass_reference' is no longer available in PHP ; ligne : 0 ; Unknown
+
+2013-12-04 17:18:14 | ip ::1 | Core Error : Directive 'allow_call_time_pass_reference' is no longer available in PHP ; ligne : 0 ; Unknown
+
+2013-12-06 23:51:58 | ip ::1 | Notice : Use of undefined constant APPLI_TABLE - assumed 'APPLI_TABLE' ; ligne : 30 ; C:\xampp\htdocs\hibook\server\modules\ap_biblio.php
+
+2013-12-06 23:51:58 | ip ::1 | Notice : Use of undefined constant APPLI_BOOK_NUMBER - assumed 'APPLI_BOOK_NUMBER' ; ligne : 32 ; C:\xampp\htdocs\hibook\server\modules\ap_biblio.php
+
+2013-12-06 23:51:58 | ip ::1 | Notice : Use of undefined constant APPLI_BOOK_NUMBER - assumed 'APPLI_BOOK_NUMBER' ; ligne : 33 ; C:\xampp\htdocs\hibook\server\modules\ap_biblio.php
+
+2013-12-06 23:52:14 | ip ::1 | Notice : Undefined index: login ; ligne : 147 ; C:\xampp\htdocs\hibook\server\core\g_module.php
+
+2013-12-06 23:52:14 | ip ::1 | Notice : Undefined index: password ; ligne : 147 ; C:\xampp\htdocs\hibook\server\core\g_module.php
+
+2013-12-06 23:53:04 | ip ::1 | Notice : Use of undefined constant APPLI_TABLE - assumed 'APPLI_TABLE' ; ligne : 30 ; C:\xampp\htdocs\hibook\server\modules\ap_biblio.php
+
+2013-12-06 23:53:05 | ip ::1 | Notice : Use of undefined constant APPLI_BOOK_NUMBER - assumed 'APPLI_BOOK_NUMBER' ; ligne : 32 ; C:\xampp\htdocs\hibook\server\modules\ap_biblio.php
+
+2013-12-06 23:53:05 | ip ::1 | Notice : Use of undefined constant APPLI_BOOK_NUMBER - assumed 'APPLI_BOOK_NUMBER' ; ligne : 33 ; C:\xampp\htdocs\hibook\server\modules\ap_biblio.php
+
+2013-12-06 23:53:26 | ip ::1 | User Warning : [6] Address key does not exist : epubMODELS  ; ligne : 93 ; C:\xampp\htdocs\hibook\server\core\g_adr.php
+
+2013-12-06 23:53:26 | ip ::1 | Notice : Use of undefined constant APPLI_TABLE - assumed 'APPLI_TABLE' ; ligne : 71 ; C:\xampp\htdocs\hibook\server\modules\ap_biblio.php
+
+2013-12-06 23:57:13 | ip ::1 | Notice : Use of undefined constant APPLI_TABLE - assumed 'APPLI_TABLE' ; ligne : 30 ; C:\xampp\htdocs\hibook\server\modules\ap_biblio.php
+
+2013-12-06 23:57:14 | ip ::1 | Notice : Use of undefined constant APPLI_BOOK_NUMBER - assumed 'APPLI_BOOK_NUMBER' ; ligne : 32 ; C:\xampp\htdocs\hibook\server\modules\ap_biblio.php
+
+2013-12-06 23:57:14 | ip ::1 | Notice : Use of undefined constant APPLI_BOOK_NUMBER - assumed 'APPLI_BOOK_NUMBER' ; ligne : 33 ; C:\xampp\htdocs\hibook\server\modules\ap_biblio.php
+
+2013-12-07 00:07:35 | ip ::1 | Notice : Use of undefined constant mysql - assumed 'mysql' ; ligne : 6 ; C:\xampp\htdocs\hibook\server\cache\g-confDB.php
+
+2013-12-07 00:08:44 | ip ::1 | Notice : Use of undefined constant APPLI_TABLE - assumed 'APPLI_TABLE' ; ligne : 30 ; C:\xampp\htdocs\hibook\server\modules\ap_biblio.php
+
+2013-12-07 00:08:44 | ip ::1 | Notice : Use of undefined constant APPLI_BOOK_NUMBER - assumed 'APPLI_BOOK_NUMBER' ; ligne : 32 ; C:\xampp\htdocs\hibook\server\modules\ap_biblio.php
+
+2013-12-07 00:08:44 | ip ::1 | Notice : Use of undefined constant APPLI_BOOK_NUMBER - assumed 'APPLI_BOOK_NUMBER' ; ligne : 33 ; C:\xampp\htdocs\hibook\server\modules\ap_biblio.php

@@ -1,0 +1,66 @@
+cp\:flist {
+	display:block;
+}
+cp\:flist .g_Flist {
+    width:300px;
+	padding:5px;
+	border:1px solid gray;
+	min-height:60px;
+}
+
+cp\:flist ul {
+	padding:0pt;
+	margin:0pt 30px 0pt 2px;
+	max-height:70px;
+	overflow:auto;
+}
+
+cp\:flist li {
+	word-wrap:break-word;
+}
+
+cp\:flist li:before {
+	content:'- ';
+	color:gray;
+}
+
+cp\:flist .g_Flist_button {
+	float:right;
+	width:20px;
+}
+
+cp\:flist .g_Flist_editBlock {
+	display:none;
+	margin:5px 0pt 0pt;
+}
+
+cp\:flist a {
+	position:absolute;
+	width:16px;
+	height:16px;
+	cursor:pointer;
+}
+
+cp\:flist .g_FlistSelected {
+    border:1px solid Orange ! important;
+}
+
+cp\:flist .g_Flist_add {
+	background:url('img/cp_plus-circle.png') no-repeat scroll 0% 0% transparent;
+}
+
+cp\:flist .g_Flist_modify {
+	background:url('img/cp_ui-text-field-select.png') no-repeat scroll 0% 0% transparent;
+}
+
+cp\:flist .g_Flist_del {
+	background:url('img/cp_minus-circle.png') no-repeat scroll 0% 0% transparent;
+}
+
+cp\:flist .g_Flist_cancel {
+	background:url('img/cp_cross-circle.png') no-repeat scroll 0% 0% transparent;
+}
+
+cp\:flist .g_Flist_save {
+	background:url('img/cp_tick-circle.png') no-repeat scroll 0% 0% transparent;
+}

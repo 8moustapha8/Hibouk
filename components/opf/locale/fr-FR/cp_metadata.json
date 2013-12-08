@@ -1,0 +1,10 @@
+{
+	"title" : "Titre de l’œuvre",
+	"creator" : "Auteur(s) ; chaque auteur est séparé par une virgule",
+	"subject" : "Mots-clés",
+	"description" : "Description, résumé",
+	"publisher" : "Éditeur(s) ; chaque éditeur est séparé par une virgule",
+	"language" : "Langue",
+	"rights" : "Déclaration de droits, licence",
+	"identifier" : "Identifiant"
+}

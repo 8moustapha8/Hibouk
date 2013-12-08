@@ -1,0 +1,11 @@
+#bookImportfiles_cover {
+	background-image:url(../../images/ap_document-image.png);
+}
+
+#bookImportfiles_text {
+	background-image:url(../../images/ap_document-word.png);
+}
+
+#bookImportfiles_close {
+	background-image:url(../../images/ap_door-open-in.png);
+}

@@ -1,0 +1,9 @@
+{
+	"bundleName" : "Bundle Name",
+	"nameSpace" : "NameSpace",
+	"typeBundle" : "Type",
+	"author" : "Author",
+	"licence" : "Licence",
+	"generate" : "Generate",
+	"bundlecreat" : "Bundles generator"
+}

@@ -1,0 +1,22 @@
+
+cp\:buttonseparator {
+	position:relative;
+	display:inline-block;
+	width:2px;
+	padding:0;
+	margin:0;
+	line-height: 0;
+	white-space: nowrap;
+	font-size: 0;
+	margin-left:8px;
+	margin-right:8px;
+	text-align:center;
+	top:-5px;
+}
+
+cp\:buttonseparator .buttonseparator {
+	position:absolute;
+	border-left:1px solid #C4C2BF;
+	border-right:1px solid white;
+	height:20px;
+}

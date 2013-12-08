@@ -1,0 +1,23 @@
+
+#bt_bundlecreat {
+	background-image:url(../images/bdlcreat_bundlecreat.png);
+}
+
+#bdlcreat-block {
+	width:800px;
+	margin:auto;
+	text-align: center;
+}
+
+#bdlcreat-block span {
+	width:350px;
+	text-align:right;
+	display:inline-block;
+	margin-right:5px;
+}
+
+#bdlcreat-block p {
+	text-align:left;
+	margin-top:3px;
+	margin-bottom:3px;
+}

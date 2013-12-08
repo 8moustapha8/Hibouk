@@ -1,0 +1,8 @@
+{
+	"ap_application" : "Application",
+	"ap_config" : "Configuration",
+	"ap_bookNumber" : "Number of displayed book",
+	"ap_configSave" : "Configuration save",
+	"ap_creatdb" : "Database creation",
+	"ap_creat" : "Create"
+}

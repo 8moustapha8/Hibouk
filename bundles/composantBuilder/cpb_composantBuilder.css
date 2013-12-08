@@ -1,0 +1,35 @@
+#bt_cpBuilder {
+	background-image:url(../images/cpb_cpBuilder.png);
+}
+
+#cpBuilder_save {
+	background-image:url(../images/cpb_save.png);
+}
+
+#cpBuilder_run {
+	background-image:url(../images/cpb_run.png);
+}
+
+#cpBuilder_js {
+	background-image:url(../images/cpb_object.png);
+}
+
+#cpBuilder_css {
+	background-image:url(../images/cpb_css.png);
+}
+
+#cpBuilder_jstest {
+	background-image:url(../images/cpb_jsTest.png);
+}
+
+#cpBuilder_htmltest {
+	background-image:url(../images/cpb_jsDemo.png);
+}
+
+#cpBuilder_info {
+	background-image:url(../images/cpb_info.png);
+}
+
+#cpBuilder_doc {
+	background-image:url(../images/cpb_doc.png);
+}
