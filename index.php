@@ -1,6 +1,6 @@
 <?php
 
-/**
+/** 
  * @package Gallina °)>
  * @subpackage core (_g)
  * @author David Dauvergne
